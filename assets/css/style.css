@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --text-color: #FFFFFF;
+    --icon-color: #ACACBE;
+    --icon-hover-bg: #5B5E71;
+    --placeholder-color: #DCDCDC;
+    --outgoing-chat-bg: #343541;
+    --incoming-chat-bg: #444654;
+    --outgoing-chat-border: #343541;
+    --incoming-chat-border: #444654;
+}
+
+.light-mode {
+    --text-color: #343641;
+    --icon-color: #A9A9BC;
+    --icon-hover-bg: #FAFAF3;
+    --placeholder-color: #6C6C6C;
+    --outgoing-chat-bg: #FFFFFF;
+    --incoming-chat-bg: #F7F7F8;
+    --outgoing-chat-border: #FFFFFF;
+    --incoming-chat-border: #D9D9E3;
+}
+
+body {
+    background-color: var(--outgoing-chat-bg);
+}
+
+/* Chat container style */
+
+
+/* Typing Container Style */
+
+
+/* Responsive media query */
